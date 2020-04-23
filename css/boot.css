@@ -21,3 +21,11 @@
     display: none !important;
 
 }
+
+.btn_orange {
+
+    color: #fff;
+    background-color: #d36833;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
