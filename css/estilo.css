@@ -83,3 +83,131 @@
     font-size: .875em;
 }
 
+/*Segunda dobra - sessão de artigos */
+
+.main_article {
+    
+    width: 100%;
+}
+
+.main_article .main_article_content {
+    
+
+    max-width: calc(1300px - 40px);
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+}
+
+.main_article .main_article_content .main_article_header {
+    
+    flex-basis: 100%; /*esta pegando a largura do conteudo*/
+    color: #333;
+}
+
+.main_article .main_article_content .main_article_header h1 {
+    
+
+
+    font-size: 1.8em;
+    margin: 20px 0 5px 0;
+}
+
+.main_article .main_article_content .main_article_header p {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.main_article .main_article_content article {
+    flex-basis: calc(25% - 20px);
+    margin: 10px;
+    opacity: .6; /*Tag para clarear o conteudo*/
+    transition: opacity .5s linear; /*Transição de uma propriedade escolhida*/
+
+}
+
+.main_article .main_article_content article:hover {
+    opacity: 1;
+    transform: opacity .5s ease-in-out;
+}
+
+
+.main_article .main_article_content article img {
+    width: 100%;
+}
+
+.main_article .main_article_content article p {
+    margin: 10px 0;
+}
+
+.main_article .main_article_content article p a{
+    color: #d36833;
+    font-size: .875em;
+}
+
+.main_article .main_article_content article h2 {
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.main_article .main_article_content article h2 a {
+    color: #333;
+}
+
+/*Terceira dobra - optin*/
+
+.main_optin {
+    border: 1px solid turquoise;
+
+    width: 100%;
+    background-color: #2d3142;
+    margin: 40px 0 10px 0;
+}
+
+.main_optin .main_optin_content {
+    display: flex;
+    border: 2px solid white;
+    max-width: calc(1300px - 40px);
+    margin: 0 auto;
+    padding: 40px 20px;
+    
+}
+
+.main_optin .main_optin_content header,.main_optin .main_optin_content form {
+    flex-basis: 50%;
+}
+
+.main_optin .main_optin_content header{
+
+}
+
+.main_optin .main_optin_content form input[type="text"],.main_optin .main_optin_content form input[type="email"]{
+    border: none;    
+    border-radius: 8px;
+    flex-basis: 37%;
+    padding-left: 10px;
+}
+
+.main_optin .main_optin_content header h1, .main_optin .main_optin_content header p {
+    color: #fff;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.main_optin .main_optin_content header h1 {
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+
+.main_optin .main_optin_content form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_optin .main_optin_content form button {
+    border: none;
+    border-radius: 8px;
+    flex-basis: 20%;
+}
