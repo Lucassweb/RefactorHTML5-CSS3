@@ -159,8 +159,6 @@
 /*Terceira dobra - optin*/
 
 .main_optin {
-    border: 1px solid turquoise;
-
     width: 100%;
     background-color: #2d3142;
     margin: 40px 0 10px 0;
@@ -168,7 +166,6 @@
 
 .main_optin .main_optin_content {
     display: flex;
-    border: 2px solid white;
     max-width: calc(1300px - 40px);
     margin: 0 auto;
     padding: 40px 20px;
@@ -210,4 +207,61 @@
     border: none;
     border-radius: 8px;
     flex-basis: 20%;
+}
+
+/*Quarta dobra - curso*/
+
+.main_course {
+    border: 2px solid navy;
+
+    width: 100%;
+}
+
+.main_course .main_course_content {
+    max-width: 1300px;
+    border: 3px solid darkred;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_course .main_course_content .main_course_header {
+    max-width: 780px;
+    margin: 0 auto;
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.main_course .main_course_content .main_course_header img {   
+    margin-bottom: 20px;
+}
+
+.main_course .main_course_content .main_course_header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.main_course .main_course_content .main_course_about {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #333;
+}
+
+.main_course .main_course_content .main_course_about article {  
+    flex-basis: calc(50% - 20px);
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+.main_course .main_course_content .main_course_about article h2 {
+    font-size: 1.1em;
+}
+
+.main_course .main_course_content .main_course_about article p {
+    font-size: .875em;
 }
