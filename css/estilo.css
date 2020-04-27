@@ -210,19 +210,14 @@
 }
 
 /*Quarta dobra - curso*/
+/*About*/
 
 .main_course {
-    border: 2px solid navy;
-
     width: 100%;
 }
 
 .main_course .main_course_content {
-    max-width: 1300px;
-    border: 3px solid darkred;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
+    
 }
 
 .main_course .main_course_content .main_course_header {
@@ -242,7 +237,13 @@
     margin-bottom: 10px;
 }
 
-.main_course .main_course_content .main_course_about {
+.main_course_about {
+    
+}
+
+.main_course .main_course_content .main_course_about_content {
+    max-width: 1300px;
+    margin: 0 auto;
     flex-basis: 100%;
     display: flex;
     justify-content: space-between;
@@ -250,7 +251,7 @@
     color: #333;
 }
 
-.main_course .main_course_content .main_course_about article {  
+.main_course .main_course_content .main_course_about_content article {  
     flex-basis: calc(50% - 20px);
     margin: 20px 0;
     padding: 20px;
@@ -258,10 +259,74 @@
     border-radius: 5px;
 }
 
-.main_course .main_course_content .main_course_about article h2 {
+.main_course .main_course_content .main_course_about_content article h2 {
     font-size: 1.1em;
 }
 
-.main_course .main_course_content .main_course_about article p {
+.main_course .main_course_content .main_course_about_content article p {
     font-size: .875em;
 }
+
+/*RATING*/
+
+.main_course_rating {
+    border: 2px solid #fff;
+    background-color:#d36833;
+    margin: 40px 0;
+    padding: 50px;
+    
+}
+
+.main_course_rating_content {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.main_course_rating .main_course_rating_content > article {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.main_course_rating .main_course_rating_content > article h2{
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.main_course_rating_content_comment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main_course_rating_content_comment > header {
+    
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    flex-basis: 100%;
+}
+
+.main_course_rating_content_comment article {
+    flex-basis: calc(50% - 20px);
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px 15px;
+    
+}
+
+.main_course_rating_content_comment article p {
+    padding: 5px;
+    font-size: .875em;
+    
+}
+
+.main_course_rating_content_comment article img {
+    width: 20px;
+}
+
+
+
