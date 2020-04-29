@@ -442,3 +442,86 @@
 .main_school .main_school_content .main_school_content_address h3 {
     font-size: 1.3em;
 }
+
+/* Sexta dobra do tutor */
+
+.main_tutor {
+    border: 2px solid black;
+    background-color: #2d3142;
+    width: 100%;
+}
+
+.main_tutor .main_tutor_content {
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 10px;
+    color: #fff;
+}
+
+.main_tutor .main_tutor_content header > h1 {
+    font-size: 2em;
+}
+
+.main_tutor .main_tutor_content header > p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+.main_tutor .main_tutor_content .main_tutor_picture {
+    padding: 10px;
+}
+
+.main_tutor .main_tutor_content .main_tutor_picture img {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.main_tutor .main_tutor_content .main_tutor_formation {
+    margin: 15px 0 30px 0;
+}
+
+.main_tutor .main_tutor_content .main_tutor_formation h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.main_tutor .main_tutor_content .main_tutor_formation p {
+    padding: 0 10px;
+}
+
+
+.main_tutor .main_tutor_content .main_tutor_socieal_networks {
+    border: 5px solid #d36833;
+    background-color: #d36833;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px 30px 10px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    
+}
+
+.main_tutor .main_tutor_content .main_tutor_socieal_networks > header {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+}
+
+.main_tutor .main_tutor_content .main_tutor_socieal_networks > header h2 {
+    font-size: 1.5em;
+}
+
+.main_tutor .main_tutor_content .main_tutor_socieal_networks > article {
+    border: 2px solid #fff;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    flex-basis: 22%;
+}
+
+.main_tutor .main_tutor_content .main_tutor_socieal_networks > article a {
+    color: #d36833;
+    font-size: .875em;
+}
