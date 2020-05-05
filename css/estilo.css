@@ -506,22 +506,105 @@
 
 .main_tutor .main_tutor_content .main_tutor_socieal_networks > header {
     flex-basis: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .main_tutor .main_tutor_content .main_tutor_socieal_networks > header h2 {
     font-size: 1.5em;
 }
 
-.main_tutor .main_tutor_content .main_tutor_socieal_networks > article {
-    border: 2px solid #fff;
+.main_tutor .main_tutor_content .main_tutor_socieal_networks article a {
+    color: #d36833;
+    font-size: .875em;
     background-color: #fff;
     border-radius: 5px;
-    padding: 10px;
     flex-basis: 22%;
 }
 
-.main_tutor .main_tutor_content .main_tutor_socieal_networks > article a {
-    color: #d36833;
-    font-size: .875em;
+.main_tutor .main_tutor_content .main_tutor_socieal_networks article a:hover {
+    background-color: #2d3142;
+    color: #fff;
+}
+
+/* Setima dobra - vip */
+
+.main_vip {
+    width: 100%;
+    background-color: #e0e0e0;
+}
+
+.main_vip .main_content_vip {
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.main_vip .main_content_vip h1 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    color: #333;
+    
+}
+
+.main_vip .main_content_vip article h2 a {
+    font-size: 1.1em; 
+}
+
+/*Oitava Dobra do - Footer*/
+
+.main_footer {
+    width: 100%;
+    
+}
+
+.main_footer .main_content_footer {
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 40px 0;
+    flex-wrap: wrap;
+}
+
+.main_footer .main_content_footer > header {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+    font-size: 1.8em;
+    color: #333;
+}
+
+.main_footer .main_content_footer article header h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+   
+}
+
+.main_footer .main_content_footer article ul li {
+    margin-bottom: 5px;
+}
+
+.main_footer .main_content_footer article ul li a {
+    color: #000;
+    
+}
+
+.footer_pags {
+ 
+  flex-basis: 25%;
+}
+
+.footer_links {
+   
+    flex-basis: 25%;
+}
+
+.footer_about {
+   
+    flex-basis: 50%;
+}
+
+.main_footer > p {
+   
+    margin: 10px 0 30px 0;
+    text-align: center;
 }
