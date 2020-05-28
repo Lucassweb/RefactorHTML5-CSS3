@@ -666,4 +666,38 @@
     .main_optin .main_optin_content form input[type="email"] {
         padding: 5px 12px !important;
     }
+    
 }
+
+/* 1024 */
+
+@media (max-width: 64em){
+    .main_cta .main_content_cta {
+        padding: 100px 30px;
+    }
+
+    .main_cta .main_content_cta h1 {
+        font-size: 2.5em;
+    }
+
+    .main_school_content_left {
+        flex-basis: 100% !important;
+    }
+
+    .main_school_content_right {
+        height: 180px;
+        padding: 20px !important;
+
+    }
+
+    .main_school_content_right img {
+        width: 135px !important;
+    }
+
+    .main_school_content_address {
+        flex-basis: calc(100% - 30%) !important;
+        padding-top: 50px !important;
+    }
+}
+
+
